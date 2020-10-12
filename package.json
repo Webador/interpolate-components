@@ -1,10 +1,10 @@
 {
-  "name": "interpolate-components",
+  "name": "@jouwweb/interpolate-components",
   "version": "1.2.2",
   "description": "Convert strings into structured React components.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Automattic/interpolate-components.git"
+    "url": "git+https://github.com/Mesoptier/interpolate-components.git"
   },
   "main": "lib/index.js",
   "keywords": [
@@ -26,9 +26,9 @@
     "mocha": "^2.3.4"
   },
   "bugs": {
-    "url": "https://github.com/Automattic/interpolate-components/issues"
+    "url": "https://github.com/Mesoptier/interpolate-components/issues"
   },
-  "homepage": "https://github.com/Automattic/interpolate-components#readme",
+  "homepage": "https://github.com/Mesoptier/interpolate-components#readme",
   "directories": {
     "test": "test"
   },

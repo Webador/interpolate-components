@@ -1,9 +1,9 @@
-Interpolate-Components
+@JouwWeb/Interpolate-Components
 ======================
 
 Interpolate-Components allows us to work with structured markup as strings and then hydrate them into a tree of React components. This is particularly useful for internationalizing strings, where a sentence or paragraph containing structured markup should be translated as a single entity. This module allows us to _interpolate_ components into a string without using the hack of `dangerouslySetInnerHTML()`.
 
-[![NPM](https://nodei.co/npm/interpolate-components.png)](https://nodei.co/npm/interpolate-components/)
+[![NPM](https://nodei.co/npm/@jouwweb/interpolate-components.png)](https://nodei.co/npm/interpolate-components/)
 
 ## Module Footprint
 
