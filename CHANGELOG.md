@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.2.3
+* Update repositories
+
+## 1.2.2
+* Merge upstream
+* Fix dependencies + add lockfile
+
+## 1.2.0
+* Add support for custom tag syntax
+
 ## 1.1.1
 * Drop deprecated React.createClass, React.DOM from test
 * Bump to allow for React ^16.0.0
