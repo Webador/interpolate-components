@@ -36,8 +36,8 @@
     "react-addons-create-fragment": "^15.1.0"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   },
   "author": "Bob Ralian <bob.ralian@gmail.com> (http://github.com/rralian)",
   "license": "GPL-2.0"
