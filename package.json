@@ -24,8 +24,8 @@
     "babel-preset-react": "^6.5.0",
     "babel-register": "^6.9.0",
     "mocha": "^2.3.4",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "bugs": {
     "url": "https://github.com/Webador/interpolate-components/issues"
@@ -38,7 +38,7 @@
     "react-addons-create-fragment": "^15.1.0"
   },
   "peerDependencies": {
-    "react": "^16.0.0 || ^17.0.0"
+    "react": "^16.0.0 || ^17.0.0 || ^18.0.0"
   },
   "author": "Bob Ralian <bob.ralian@gmail.com> (http://github.com/rralian)",
   "contributors": [
