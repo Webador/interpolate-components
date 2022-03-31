@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0
+* Support React v17.0 and v18.0
+* Remove ReactDOM peer dependency
+
 ## 1.2.3
 * Update repositories
 
