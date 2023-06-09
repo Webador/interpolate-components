@@ -75,12 +75,6 @@ function gatherChildren(
                 `Invalid interpolation, missing component node: \`${token.value}\``,
             );
         }
-        // should be either ReactElement or null (both type "object"), all other types deprecated
-        if (typeof components[token.value] !== 'object') {
-            throw new Error(
-                `Invalid interpolation, component node must be a ReactElement or null: \`${token.value}\``,
-            );
-        }
         // we should never see a componentClose token in this loop
         if (token.type === 'componentClose') {
             throw new Error(

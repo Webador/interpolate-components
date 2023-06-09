@@ -87,14 +87,15 @@ describe('interpolate-components', () => {
                 });
             });
         });
-        it('should return original string when component node is not an object', () => {
+        it('should interpolate non-object component nodes', () => {
             const expectedResultString =
-                '<span>test{{input/}}test{{input2/}}</span>';
+                '<span>test string test 123 test </span>';
             const interpolatedResult = interpolateComponents({
-                mixedString: 'test{{input/}}test{{input2/}}',
+                mixedString: 'test {{input1/}} test {{input2/}} test {{input3/}}',
                 components: {
-                    input: 'string',
+                    input1: 'string',
                     input2: 123,
+                    input3: null,
                 },
             });
             const instance = <span>{interpolatedResult}</span>;
