@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.0
+* Rewrite in TypeScript
+* Support non-object component nodes (e.g. strings and numbers)
+
 ## 1.3.0
 * Support React v17.0 and v18.0
 * Remove ReactDOM peer dependency

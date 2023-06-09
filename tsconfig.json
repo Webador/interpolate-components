@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "Node16",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "outDir": "lib",
+    "declaration": true,
+    "noImplicitAny": true
+  },
+  "files": ["src/index"],
+  "include": ["src/**/*"]
+}
