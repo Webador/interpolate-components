@@ -8,7 +8,7 @@ import React from 'react';
 /**
  * Internal dependencies
  */
-import interpolateComponents from '../src/index';
+import interpolateComponents from '../src';
 
 describe('interpolate-components', () => {
     const input = <input />;
@@ -324,6 +324,7 @@ describe('interpolate-components', () => {
                 interpolateComponents({
                     mixedString: 'test',
                     components: {},
+                    // @ts-expect-error
                     tags: '{{',
                     throwErrors: true,
                 });
@@ -335,6 +336,7 @@ describe('interpolate-components', () => {
                 interpolateComponents({
                     mixedString: 'test',
                     components: {},
+                    // @ts-expect-error
                     tags: {
                         componentOpen: ['{{', '}}'],
                     },

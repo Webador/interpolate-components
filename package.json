@@ -13,7 +13,7 @@
     "interpolation"
   ],
   "scripts": {
-    "compile": "babel -sd lib/ src/",
+    "build": "tsc --project tsconfig.json",
     "prepublish": "npm run compile",
     "test": "mocha --require ts-node/register --reporter spec test/test.tsx"
   },
@@ -34,9 +34,6 @@
   "homepage": "https://github.com/Webador/interpolate-components#readme",
   "directories": {
     "test": "test"
-  },
-  "dependencies": {
-    "react-addons-create-fragment": "^15.1.0"
   },
   "peerDependencies": {
     "react": "^16.0.0 || ^17.0.0 || ^18.0.0"
