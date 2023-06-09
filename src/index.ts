@@ -3,6 +3,7 @@ import {
     createElement,
     Fragment,
     isValidElement,
+    ReactElement,
     ReactNode,
 } from 'react';
 
@@ -45,7 +46,7 @@ function getCloseIndex(openIndex: number, tokens: Token[]) {
 function buildNode(
     tokens: Token[],
     components: Record<string, ReactNode>,
-): ReactNode {
+): ReactElement {
     const children = gatherChildren(tokens, components).map((node, index) =>
         createElement(Fragment, { key: index }, node),
     );
@@ -118,7 +119,9 @@ interface InterpolateOptions {
     throwErrors?: boolean;
 }
 
-export default function interpolate(options: InterpolateOptions): ReactNode {
+export default function interpolate(
+    options: InterpolateOptions,
+): ReactElement | string {
     const {
         mixedString,
         components,
